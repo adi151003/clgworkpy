@@ -8,7 +8,7 @@ def isPrime(n, i = 2):
  
     return isPrime(n, i + 1)
  
- 
+
 n = int(input("enter number : "))
 if (isPrime(n)):
     print("Yes")
